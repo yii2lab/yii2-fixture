@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2lab\fixture\drivers\db;
+namespace yii2module\fixture\drivers\db;
 
 use woop\foundation\helpers\Helper;
 

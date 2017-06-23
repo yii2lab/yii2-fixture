@@ -1,12 +1,12 @@
 <?php
 
-namespace yii2lab\fixture\drivers\db;
+namespace yii2module\fixture\drivers\db;
 
 use Yii;
 use woop\extension\app\run\Env;
 use woop\foundation\helpers\Helper;
 use yii\db\Query;
-use yii2lab\fixture\interfaces\DriverInterface;
+use yii2module\fixture\interfaces\DriverInterface;
 
 abstract class BaseDriver implements DriverInterface
 {

@@ -1,16 +1,16 @@
 <?php
 
-namespace yii2lab\fixture\drivers;
+namespace yii2module\fixture\drivers;
 
 use Yii;
 use woop\extension\app\run\Env;
 use woop\foundation\helpers\Helper;
 use yii\db\Query;
-use yii2lab\fixture\interfaces\DriverInterface;
+use yii2module\fixture\interfaces\DriverInterface;
 
 class DbDriver implements DriverInterface
 {
-	const DRIVER_NAMESPACE = 'yii2lab\fixture\drivers\db';
+	const DRIVER_NAMESPACE = 'yii2module\fixture\drivers\db';
 	private $driver;
 	
 	public function __construct()

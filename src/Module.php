@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2lab\fixture;
+namespace yii2module\fixture;
 
 use yii\base\Module as YiiModule;
 

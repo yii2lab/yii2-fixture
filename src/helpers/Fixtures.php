@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2lab\fixture\helpers;
+namespace yii2module\fixture\helpers;
 
 use Yii;
 use woop\foundation\helpers\Helper;
@@ -9,7 +9,7 @@ use yii\base\Component;
 class Fixtures extends Component
 {
 
-	const DRIVER_NAMESPACE = 'yii2lab\fixture\drivers';
+	const DRIVER_NAMESPACE = 'yii2module\fixture\drivers';
 	private $dbDriver;
 	private $diskDriver;
 	

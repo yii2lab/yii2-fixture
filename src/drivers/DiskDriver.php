@@ -1,13 +1,13 @@
 <?php
 
-namespace yii2lab\fixture\drivers;
+namespace yii2module\fixture\drivers;
 
 use Yii;
 use woop\foundation\yii\helpers\FileHelper;
 use yii\helpers\Inflector;
 use yii\helpers\ArrayHelper;
 use yii\helpers\VarDumper;
-use yii2lab\fixture\interfaces\DriverInterface;
+use yii2module\fixture\interfaces\DriverInterface;
 use woop\extension\store\Store;
 
 class DiskDriver implements DriverInterface

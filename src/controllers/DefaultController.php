@@ -1,10 +1,10 @@
 <?php
 
-namespace yii2lab\fixture\controllers;
+namespace yii2module\fixture\controllers;
 
 use Yii;
 use woop\extension\console\yii\console\Controller;
-use yii2lab\fixture\helpers\Fixtures;
+use yii2module\fixture\helpers\Fixtures;
 use woop\extension\console\helpers\Output;
 use woop\extension\console\helpers\input\Question;
 use woop\extension\console\helpers\input\Select;

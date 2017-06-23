@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2lab\fixture\interfaces;
+namespace yii2module\fixture\interfaces;
 
 interface DriverInterface
 {

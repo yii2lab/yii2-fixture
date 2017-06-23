@@ -3,11 +3,11 @@
 namespace yii2module\fixture\controllers;
 
 use Yii;
-use woop\extension\console\yii\console\Controller;
+use yii2lab\console\yii\console\Controller;
 use yii2module\fixture\helpers\Fixtures;
-use woop\extension\console\helpers\Output;
-use woop\extension\console\helpers\input\Question;
-use woop\extension\console\helpers\input\Select;
+use yii2lab\console\helpers\Output;
+use yii2lab\console\helpers\input\Question;
+use yii2lab\console\helpers\input\Select;
 
 class DefaultController extends Controller
 {

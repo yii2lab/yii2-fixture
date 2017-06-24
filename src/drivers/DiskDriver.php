@@ -8,7 +8,7 @@ use yii\helpers\Inflector;
 use yii\helpers\ArrayHelper;
 use yii\helpers\VarDumper;
 use yii2module\fixture\interfaces\DriverInterface;
-use woop\extension\store\Store;
+use yii2lab\store\Store;
 
 class DiskDriver implements DriverInterface
 {

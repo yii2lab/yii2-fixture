@@ -3,7 +3,7 @@
 namespace yii2module\fixture\helpers;
 
 use Yii;
-use woop\foundation\helpers\Helper;
+use yii2lab\helpers\Helper;
 use yii\base\Component;
 
 class Fixtures extends Component

@@ -4,7 +4,7 @@ namespace yii2module\fixture\drivers;
 
 use Yii;
 use yii2lab\app\run\Env;
-use woop\foundation\helpers\Helper;
+use yii2lab\helpers\Helper;
 use yii\db\Query;
 use yii2module\fixture\interfaces\DriverInterface;
 

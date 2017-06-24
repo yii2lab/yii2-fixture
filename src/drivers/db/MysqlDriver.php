@@ -2,7 +2,7 @@
 
 namespace yii2module\fixture\drivers\db;
 
-use woop\foundation\helpers\Helper;
+use yii2lab\helpers\Helper;
 
 class MysqlDriver extends BaseDriver
 {

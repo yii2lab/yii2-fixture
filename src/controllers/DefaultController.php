@@ -8,6 +8,7 @@ use yii2module\fixture\helpers\Fixtures;
 use yii2lab\console\helpers\Output;
 use yii2lab\console\helpers\input\Question;
 use yii2lab\console\helpers\input\Select;
+use yii2lab\console\helpers\input\Enter;
 
 class DefaultController extends Controller
 {
@@ -36,6 +37,21 @@ class DefaultController extends Controller
 			}
 		}
 		
+	}
+	
+	public function actionOne($option = null)
+	{
+		$fixtures = Yii::createObject(Fixtures::className());
+		$option = Question::displayWithQuit('Select operation', ['Export', 'Import'], $option);
+		if($option == 'e') {
+			$table = Enter::display('Enter table name for export');
+			$tables = $fixtures->export([$table]);
+			Output::items($tables, 'Exported tables');
+		} elseif($option == 'i') {
+			$table = Enter::display('Enter table name for import');
+			$tables = $fixtures->import([$table]);
+			Output::items($tables, 'Imported tables');
+		}
 	}
 	
 }

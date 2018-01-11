@@ -13,6 +13,10 @@ use yii2lab\console\helpers\input\Enter;
 class DefaultController extends Controller
 {
 	
+	
+	/**
+	 * Export or import fixtures
+	 */
 	public function actionIndex($option = null)
 	{
 		$fixtures = Yii::createObject(Fixtures::className());
@@ -39,6 +43,9 @@ class DefaultController extends Controller
 		
 	}
 	
+	/**
+	 * Export or import one table
+	 */
 	public function actionOne($option = null)
 	{
 		$fixtures = Yii::createObject(Fixtures::className());

@@ -5,6 +5,7 @@ namespace yii2module\fixture\helpers;
 use Yii;
 use yii2lab\helpers\Helper;
 use yii\base\Component;
+use yii2mod\helpers\ArrayHelper;
 
 class Fixtures extends Component
 {
@@ -31,7 +32,8 @@ class Fixtures extends Component
 	
 	public function tableNameList()
 	{
-		$list = $this->dbDriver->getNameList();
+		$schemas = Yii::$app->db->schema->getTableSchemas();
+		$list = ArrayHelper::getColumn($schemas, 'name');
 		sort($list);
 		reset($list);
 		return $list;

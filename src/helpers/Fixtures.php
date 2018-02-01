@@ -3,7 +3,6 @@
 namespace yii2module\fixture\helpers;
 
 use Yii;
-use yii2lab\helpers\Helper;
 use yii\base\Component;
 use yii2mod\helpers\ArrayHelper;
 
